@@ -28,7 +28,6 @@ int main(){
 			printf("%d ", j);
 			tam-=1;
 			printf("\n");
-		
 	}
 
 return 0;
