@@ -36,4 +36,25 @@ int main(){
     
     float media = (n1 + n2*2 + n3*3 + ME)/7;
     printf("O valor da media de aproveitamento e: %.2f\n", media);
+    
+    //Válida Nota
+    if(media >= 9){
+    	printf("Nota: A");
+	}
+	
+	if(media >= 7.5 && media < 9){
+		printf("Nota: B");
+	}
+	
+	if(media >= 6 && media < 7.5){
+		printf("Nota: C");
+	}
+	
+	if(media >= 4 && media <6){
+		printf("Nota: D");
+	}
+	
+	if(media < 4){
+		printf("Nota: E");
+	}
 }
